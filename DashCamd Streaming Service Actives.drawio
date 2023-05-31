@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T19:05:01.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="8jF1LTvHJ5b0K4RMHEJW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T19:20:32.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="chmO7kyu-rBYP-Byg2vt" version="21.3.5" type="github">
   <diagram name="Página-1" id="K4ppWw_h4LW2VYCO9uhz">
-    <mxGraphModel>
+    <mxGraphModel dx="1301" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-370" width="590" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-8" value="Keycloak" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Conditional_Access.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-100" width="65.88" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTbTCUFP5uFc4v3f4WRL-9" target="zTbTCUFP5uFc4v3f4WRL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="-219.99999999999977" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zTbTCUFP5uFc4v3f4WRL-9" target="zTbTCUFP5uFc4v3f4WRL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.034;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zTbTCUFP5uFc4v3f4WRL-9" target="zTbTCUFP5uFc4v3f4WRL-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-9" value="Commands Service Actives" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-92" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-10" value="Commands Api" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Dash Cam Streaming Service Active&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-310" width="416" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zTbTCUFP5uFc4v3f4WRL-19" value="Dashcam BD" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="381" y="-250" width="48" height="64" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
